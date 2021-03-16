@@ -39,7 +39,6 @@ int main(void)
 	int dacdata1=0; //DAC ramp data
 	int dacdata2=0; //DAC ramp data
 	int dacdav = 0; //DAC data available
-	//int dacacq=0; //DAC acquire
 	xil_printf("\n\rStarting DA2 Pmod demo test...\n\r");
 	Xil_Out32(DA2acq,0); //stop DAC acquire
 
